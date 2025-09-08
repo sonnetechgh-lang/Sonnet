@@ -160,7 +160,7 @@ a {
 }
 
 .logo-img {
-    height: 10.75rem;
+    height: 2.75rem;
     width: auto;
 }
 
@@ -969,5 +969,6 @@ section {
         image-rendering: crisp-edges;
     }
 }
+
 
 
