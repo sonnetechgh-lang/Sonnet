@@ -1,4 +1,7 @@
-  AOS.init();
+AOS.init({
+  duration: 1000, 
+  once: true       
+});
 // Contact Form Handler
 document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.querySelector('.contact-form');
@@ -302,4 +305,5 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.head.appendChild(style);
 });
+
 
