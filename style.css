@@ -755,6 +755,7 @@ section {
     .service-details li {
         font-size: 0.9rem;
         padding: 0.4rem 0;
+        padding-left: 1.8rem;
     }
 
     .tech-tag {
@@ -892,6 +893,7 @@ section {
 
     .service-details li {
         font-size: 0.85rem;
+        padding-left: 1.8rem;
     }
 
     .tech-tag {
