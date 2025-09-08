@@ -1,6 +1,12 @@
-AOS.init({
-  duration: 1000, 
-  once: true       
+document.addEventListener("DOMContentLoaded", () => {
+  if (typeof AOS !== "undefined") {
+    AOS.init({
+      duration: 1500,
+      easing: "ease-in-out",
+      once: false,
+      offset: 100,
+    });
+  }
 });
 // Contact Form Handler
 document.addEventListener('DOMContentLoaded', function() {
@@ -305,5 +311,6 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.head.appendChild(style);
 });
+
 
 
