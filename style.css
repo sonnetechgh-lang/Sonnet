@@ -853,7 +853,7 @@ section {
     }
 
     .logo-img {
-        height: 2.75rem;
+        height: 2rem;
     }
 }
 
@@ -969,4 +969,3 @@ section {
         image-rendering: crisp-edges;
     }
 }
-
