@@ -111,6 +111,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Form submission handler
     contactForm.addEventListener('submit', async function(e) {
+        // If form has an action (e.g., Formspree), allow native submission
+        if (contactForm.getAttribute('action')) {
+            return;
+        }
         e.preventDefault();
         
         // Get form data
