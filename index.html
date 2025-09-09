@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script src="script.js"></script>
+     <script src="index.js"></script>
    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  
     <title>Sonnet | Technology Solutions Consultancy</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,17 +17,17 @@
 
 <body>
 
-    <header class="header">
+    <header class="header" data-aos="fade-down" data-aos-duration="800">
         <div class="container nav-container">
-            <a href="#" class="logo">
+            <a href="#" class="logo" data-aos="fade-right" data-aos-delay="200">
                 <img src="Images/logo.png" alt="Sonnet Logo" class="logo-img">
             </a>
-            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" data-aos="fade-left" data-aos-delay="200">
                 <span class="hamburger"></span>
                 <span class="hamburger"></span>
                 <span class="hamburger"></span>
             </button>
-            <nav class="nav">
+            <nav class="nav" data-aos="fade-left" data-aos-delay="400">
                 <ul class="nav-list">
                     <li><a href="#about" class="nav-link">About</a></li>
                     <li><a href="#services" class="nav-link">Services</a></li>
@@ -40,30 +41,32 @@
         <section id="hero" class="hero-section">
             <img src="Images\hero.webp" alt="Sonnet Banner" class="hero-banner">
             <div class="container hero-content">
-            <h1 class="hero-headline" data-aos="slide-right" data-aos-delay="100">
+            <h1 class="hero-headline" data-aos="zoom-in" data-aos-delay="100">
   Transforming Ideas into Scalable Tech Solutions
 </h1>
-                <p class="hero-subtext">At Sonnet, we connect businesses with expert developers, designers, and IT
+                <p class="hero-subtext" data-aos="slide-right" data-aos-delay="300">
+               At Sonnet, we connect businesses with expert developers, designers, and IT
                     specialists to deliver innovative digital solutions.</p>
-                <a href="#contact" class="btn btn-primary">Request a Consultation</a>
+                <a href="#contact" class="btn btn-primary" data-aos="flip-right" data-aos-delay="800">
+                    Request a Consultation</a>
             </div>
         </section>
 
-        <section id="about" class="about-section">
+        <section id="about" class="about-section" data-aos="fade-up" data-aos-duration="1000">
             <div class="container">
-                <h2 class="section-title">About Sonnet</h2>
-                <p class="section-description">
+                <h2 class="section-title" data-aos="zoom-in" data-aos-delay="200">About Sonnet</h2>
+                <p class="section-description" data-aos="fade-up" data-aos-delay="400">
                     Our mission is to bridge businesses with the right technology to help them scale and succeed. We
                     believe that the right team and the right tools can unlock unlimited potential.
                 </p>
             </div>
         </section>
 
-        <section id="services" class="services-section">
+        <section id="services" class="services-section" data-aos="fade-up" data-aos-duration="1000">
             <div class="container">
-                <h2 class="section-title">Our Services</h2>
+                <h2 class="section-title" data-aos="zoom-in" data-aos-delay="200">Our Services</h2>
                 <div class="services-grid">
-                    <div class="service-card" data-service="software">
+                    <div class="service-card" data-service="software" data-aos="fade-up" data-aos-delay="400">
                         <i class="fas fa-code service-icon"></i>
                         <h3 class="service-title">Software Development</h3>
                         <p class="service-description">Custom software solutions for your unique business needs.</p>
@@ -82,7 +85,7 @@
                             <span class="tech-tag">Node.js</span>
                         </div>
                     </div>
-                    <div class="service-card" data-service="web-app">
+                    <div class="service-card" data-service="web-app" data-aos="fade-up" data-aos-delay="600">
                         <i class="fas fa-laptop-code service-icon"></i>
                         <h3 class="service-title">Web & App Development</h3>
                         <p class="service-description">Building responsive websites and powerful mobile applications.</p>
@@ -101,7 +104,7 @@
                             <span class="tech-tag">React Native</span>
                         </div>
                     </div>
-                    <div class="service-card" data-service="ui-ux">
+                    <div class="service-card" data-service="ui-ux" data-aos="fade-up" data-aos-delay="800">
                         <i class="fas fa-drafting-compass service-icon"></i>
                         <h3 class="service-title">UI/UX Design</h3>
                         <p class="service-description">Crafting intuitive and engaging user experiences.</p>
@@ -120,7 +123,7 @@
                             <span class="tech-tag">InVision</span>
                         </div>
                     </div>
-                    <div class="service-card" data-service="it-consultancy">
+                    <div class="service-card" data-service="it-consultancy" data-aos="fade-up" data-aos-delay="1000">
                         <i class="fas fa-cloud service-icon"></i>
                         <h3 class="service-title">IT Consultancy</h3>
                         <p class="service-description">Strategic guidance to optimize your technology infrastructure.</p>
@@ -139,7 +142,7 @@
                             <span class="tech-tag">Kubernetes</span>
                         </div>
                     </div>
-                    <div class="service-card" data-service="cloud-integration">
+                    <div class="service-card" data-service="cloud-integration" data-aos="fade-up" data-aos-delay="1200">
                         <i class="fas fa-server service-icon"></i>
                         <h3 class="service-title">Cloud & Integration Services</h3>
                         <p class="service-description">Seamlessly integrating cloud solutions and APIs.</p>
@@ -158,7 +161,7 @@
                             <span class="tech-tag">GraphQL</span>
                         </div>
                     </div>
-                    <div class="service-card" data-service="digital-marketing">
+                    <div class="service-card" data-service="digital-marketing" data-aos="fade-up" data-aos-delay="1400">
                         <i class="fas fa-bullhorn service-icon"></i>
                         <h3 class="service-title">Digital Marketing & Promotion</h3>
                         <p class="service-description">Comprehensive digital marketing strategies to boost your online presence and reach.</p>
@@ -181,23 +184,23 @@
             </div>
         </section>
 
-        <section id="why-us" class="why-us-section">
+        <section id="why-us" class="why-us-section" data-aos="fade-up" data-aos-duration="1000">
             <div class="container">
-                <h2 class="section-title">Why Choose Us</h2>
+                <h2 class="section-title" data-aos="zoom-in" data-aos-delay="200">Why Choose Us</h2>
                 <div class="why-us-grid">
-                    <div class="why-us-card">
+                    <div class="why-us-card" data-aos="fade-right" data-aos-delay="400">
                         <h3 class="why-us-title">Vetted Experts</h3>
                         <p>Access a network of top-tier professionals with proven track records.</p>
                     </div>
-                    <div class="why-us-card">
+                    <div class="why-us-card" data-aos="fade-up" data-aos-delay="600">
                         <h3 class="why-us-title">Tailored Solutions</h3>
                         <p>We provide customized strategies that align with your business goals.</p>
                     </div>
-                    <div class="why-us-card">
+                    <div class="why-us-card" data-aos="fade-left" data-aos-delay="800">
                         <h3 class="why-us-title">Affordable Packages</h3>
                         <p>High-quality services at competitive rates to fit your budget.</p>
                     </div>
-                    <div class="why-us-card">
+                    <div class="why-us-card" data-aos="fade-up" data-aos-delay="1000">
                         <h3 class="why-us-title">Client-Centered Approach</h3>
                         <p>Your success is our priority, with transparent communication at every step.</p>
                     </div>
@@ -205,10 +208,10 @@
             </div>
         </section>
 
-        <section id="testimonials" class="testimonials-section">
+        <section id="testimonials" class="testimonials-section" data-aos="fade-up" data-aos-duration="1000">
             <div class="container">
-                <h2 class="section-title">What Our Clients Say</h2>
-                <div class="testimonial-card">
+                <h2 class="section-title" data-aos="zoom-in" data-aos-delay="200">What Our Clients Say</h2>
+                <div class="testimonial-card" data-aos="flip-up" data-aos-delay="400">
                     <p class="testimonial-text">"Sonnet helped us find the perfect team for our project. Their expertise
                         and support were invaluable. Highly recommend!"</p>
                     <p class="testimonial-author">- Jane Doe, Tech Company CEO</p>
@@ -216,17 +219,17 @@
             </div>
         </section>
 
-        <section id="contact" class="contact-section">
+        <section id="contact" class="contact-section" data-aos="fade-up" data-aos-duration="1000">
             <div class="container">
-                <h2 class="section-title">Ready to Transform Your Business?</h2>
+                <h2 class="section-title" data-aos="zoom-in" data-aos-delay="200">Ready to Transform Your Business?</h2>
                 <div class="contact-content">
-                    <form class="contact-form" action="https://formspree.io/f/xeolvneo" method="POST">
+                    <form class="contact-form" action="https://formspree.io/f/xeolvneo" method="POST" data-aos="fade-right" data-aos-delay="400">
                         <input type="text" name="name" placeholder="Name" required>
                         <input type="email" name="email" placeholder="Email" required>
                         <textarea name="message" placeholder="Message" rows="5" required></textarea>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <button type="submit" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">Send Message</button>
                     </form>
-                    <div class="contact-info">
+                    <div class="contact-info" data-aos="fade-left" data-aos-delay="400">
                         <p><i class="fas fa-phone-alt"></i> Phone: +233 (0) 54 548 9242</p>
                         <p><i class="fas fa-envelope"></i> Email: <a href="mailto:sonnetechgh@gmail.com">sonnetechgh@gmail.com</a></p>
                         <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/233257940113">+233 (0) 25 794 0113</a></p>
@@ -236,15 +239,15 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="footer-grid">
-                <div class="footer-brand">
+                <div class="footer-brand" data-aos="fade-right" data-aos-delay="200">
                   
                         <img src="Images/logo-footer.png" alt="Sonnet Logo" class="logo-img">
                     </a>
                 </div>
-                <div class="footer-links">
+                <div class="footer-links" data-aos="fade-up" data-aos-delay="400">
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="#hero">Home</a></li>
@@ -253,7 +256,7 @@
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="social-links">
+                <div class="social-links" data-aos="fade-left" data-aos-delay="400">
                     <h3>Connect With Us</h3>
                     <div class="social-icons">
                         <a href="#"><i class="fab fa-whatsapp"></i></a>
@@ -263,14 +266,14 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-copyright">
+            <div class="footer-copyright" data-aos="fade-up" data-aos-delay="600">
                 <p>Copyright &copy; 2025 Sonnet. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 </body>
 
 
